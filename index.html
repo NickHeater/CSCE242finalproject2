@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <h1>Rally Cars</h1>
+    <div id="rallycar-list"></div>
+    <button id="btn-showdetails" class="showbtn">Show Details</button>
+    <button id="btn-showadd" class="showbtn">Add a Car</button>
+
+    <div id="forms">
+        <div class="wrapper">
+
+            <div id="edit-rallycar" class="form hidden" class="form">
+                <span id="rallycar-id" class="hidden"></span>
+                <p>
+                    <label for="txt-name">Name: </label>
+                    <input id="txt-name">
+                </p>
+                <p>
+                    <label for="txt-horsepower">Horsepower: </label>
+                    <input id="txt-horsepower">
+                </p>
+                <p>
+                    <label for="txt-weight">Weight: </label>
+                    <input id="txt-weight">
+                </p>
+                <p>
+                    <label for="txt-config">Config: </label>
+                    <input id="txt-config">
+                </p>
+                <p>
+                    <label for="txt-color">Color: </label>
+                    <input id="txt-color">
+                </p>
+                <p>
+                    <label for="txt-team">Team: </label>
+                    <input id="txt-team">
+                </p>
+                <p id="msg"></p>
+                <button id="btn-edit-rallycar" class="showbtn">Edit Rallycar</button>
+                <button id="btn-delete-rallycar" class="showbtn">Delete Rallycar</button>
+            </div>
+
+        </div>
+        <div class="wrapper"></div>
+        <div class="wrapper">
+
+            <div id="add-rallycar" class="form hidden" class="form">
+                <p>
+                    <label for="txt-add-name">Name: </label>
+                    <input id="txt-add-name">
+                </p>
+                <p>
+                    <label for="txt-add-horsepower">Horsepower: </label>
+                    <input id="txt-add-horsepower">
+                </p>
+                <p>
+                    <label for="txt-add-weight">Weight: </label>
+                    <input id="txt-add-weight">
+                </p>
+                <p>
+                    <label for="txt-add-config">Config: </label>
+                    <input id="txt-add-config">
+                </p>
+                <p>
+                    <label for="txt-add-color">Color: </label>
+                    <input id="txt-add-color">
+                </p>
+                <p>
+                    <label for="txt-add-team">Team: </label>
+                    <input id="txt-add-team">
+                </p>
+                <p id="msg2"></p>
+                <button id="btn-add-rallycar" class="showbtn">Add Rallycar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

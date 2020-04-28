@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    text-align: center;
+}
+
+.rallycar-section {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#forms,
+.form {
+    padding: 10px;
+    margin: 15px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    display: block;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.showbtn {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+    justify-content: center;
+}
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+input {
+    width: 200px;
+}
+
+
+/* Large Resolutions */
+
+@media(min-width:900px) {
+    .wrapper {
+        width: 30%;
+    }
+    #forms {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #rallycar-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .rallycar-section {
+        flex-wrap: wrap;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+}
